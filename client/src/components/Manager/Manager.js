@@ -56,7 +56,7 @@ export default function Manager({ userStatus, isManager, userIsNotManager, chang
                 }
             }
         }
-    }, [userStatus, isManager])
+    }, [{...userStatus}, isManager])
 
     const loan = async (gemachName, loanAmount, paymentAmount, userId, i, j) => {
         let toIncreaseBorrow = 0;
