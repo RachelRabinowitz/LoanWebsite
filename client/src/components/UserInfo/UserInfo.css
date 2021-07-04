@@ -1,0 +1,15 @@
+table {
+  margin: 60px;
+  margin-top: 100px;
+  width: 90%;
+}
+
+.head {
+  background-color: rgb(103, 143, 143);
+}
+
+.data td {
+  padding: 10px;
+  border-bottom: 1px solid rgb(103, 143, 143);
+}
+

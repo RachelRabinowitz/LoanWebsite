@@ -1,0 +1,289 @@
+#loan {
+  height: 750px !important;
+}
+
+.loan_container {
+  margin-left: -10%;
+  animation-direction: alternate;
+  transition: all 0.4s linear;
+}
+
+.loan_chevron {
+  cursor: pointer;
+  font-size: 40px;
+  background-color: unset;
+  border: none;
+  margin-right: 5%;
+  margin-left: 5%;
+  top: 50% !important;
+}
+
+.right {
+  position: absolute;
+  right: 5%;
+  float: right;
+}
+
+.left {
+  position: absolute;
+  left: 5% !important;
+  float: left;
+}
+
+.loan_req {
+  height: 60%;
+}
+
+.loan_req div {
+  align-self: flex-start;
+  left: 30%;
+}
+
+.loan_parts {
+  /* font-size: 24px; */
+  margin-top: 5%;
+  margin-left: -10%;
+  text-align: left !important;
+  left: 40%;
+  width: 500px;
+  position: absolute;
+  top: 25%;
+}
+
+.loan_req {
+  font-size: 20px;
+  height: 60px;
+}
+
+.inner_part {
+  width: 500px;
+  margin: auto;
+}
+
+.inner_part .error_message {
+  margin: 0;
+}
+
+.inner_part .form_item .form_input {
+  width: 100%;
+}
+.inner_part .form_btn {
+  font-size: 18px;
+  font-weight: bold;
+  width: 130px;
+}
+
+.row {
+  position: sticky;
+  left: 0;
+}
+
+#line {
+  position: absolute;
+  width: 60%;
+  height: 5px;
+  margin-top: 40px;
+  margin-left: 22%;
+  border-bottom: 6px double #72a53b;
+}
+
+.steps_icons {
+  margin-top: 25px;
+}
+
+.step_num {
+  color: #fff;
+  background-color: #a7b3b8;
+  width: 40px;
+  height: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 4px solid #efeff3;
+  padding: 6px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1;
+  display: block;
+  margin: -60px auto 0;
+  position: relative;
+  left: 46px;
+}
+
+.steps_icons p {
+  text-align: center;
+  margin-top: 25px;
+  color: #000;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  .col_sm_4 {
+    width: 33.33333333%;
+  }
+}
+@media (min-width: 768px) {
+  .col-sm-1,
+  .col-sm-2,
+  .col-sm-3,
+  .col_sm_4,
+  .col-sm-5,
+  .col-sm-6,
+  .col-sm-7,
+  .col-sm-8,
+  .col-sm-9,
+  .col-sm-10,
+  .col-sm-11,
+  .col-sm-12 {
+    float: left;
+  }
+}
+.col-xs-1,
+.col-sm-1,
+.col-md-1,
+.col-lg-1,
+.col-xs-2,
+.col-sm-2,
+.col-md-2,
+.col-lg-2,
+.col-xs-3,
+.col-sm-3,
+.col-md-3,
+.col-lg-3,
+.col-xs-4,
+.col_sm_4,
+.col-md-4,
+.col-lg-4,
+.col-xs-5,
+.col-sm-5,
+.col-md-5,
+.col-lg-5,
+.col-xs-6,
+.col-sm-6,
+.col-md-6,
+.col-lg-6,
+.col-xs-7,
+.col-sm-7,
+.col-md-7,
+.col-lg-7,
+.col-xs-8,
+.col-sm-8,
+.col-md-8,
+.col-lg-8,
+.col-xs-9,
+.col-sm-9,
+.col-md-9,
+.col-lg-9,
+.col-xs-10,
+.col-sm-10,
+.col-md-10,
+.col-lg-10,
+.col-xs-11,
+.col-sm-11,
+.col-md-11,
+.col-lg-11,
+.col-xs-12,
+.col-sm-12,
+.col-md-12,
+.col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.step1_icon {
+  background-image: url(https://d34m5i9by2qell.cloudfront.net/img/design_v6/step1_v6.png);
+}
+
+.step2_icon {
+  background-image: url("./../../assets/image/loanIcon.png");
+}
+
+.step3_icon {
+  background-image: url(https://d34m5i9by2qell.cloudfront.net/img/design_v6/step2_v6.png);
+}
+
+.step1_icon,
+.step2_icon,
+.step3_icon {
+  background-color: #fff;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 10px;
+  border: 6px solid #448abe;
+  width: 80px;
+  height: 80px;
+  -webkit-border-radius: 80px;
+  -moz-border-radius: 80px;
+  border-radius: 80px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  margin: 0 auto;
+}
+
+.step_num.active {
+  border: 4px solid #fff;
+  background-color: #72a53b;
+  color: #000;
+}
+
+.loan_radio {
+  margin-top: 30%;
+  text-align: left !important;
+}
+
+.loan_radio input {
+  font-size: 25px;
+}
+
+#part1,
+#part2 .inner_part {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reqs {
+  margin-right: 25px;
+}
+
+#part1 {
+  margin-left: -150px;
+  margin-top: 50px;
+}
+
+#part1_h2 {
+  font-size: 22px;
+  -webkit-text-stroke: 0.5px black;
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  background-color: rgb(156, 156, 156);
+  width: 18px;
+  height: 18px;
+  padding-left: 3px;
+  margin-right: 8px;
+  margin-left: -30px;
+  border-radius: 30%;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked::before {
+  content: "\2714";
+  text-align: center !important;
+  font-weight: bolder;
+  font-size: 15px;
+}

@@ -1,0 +1,110 @@
+
+.marquee{
+  margin: auto;
+  width: 70%;
+  text-align: center;
+}
+
+
+.news_container{
+  height: 110px;
+  width: 100%;
+}
+
+
+
+
+.marquee_running, .marquee_paused{
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow: hidden;
+  padding-inline-start: 20%;
+}
+
+
+.news{
+background-color: black;
+color: white;
+margin: auto;
+overflow: hidden;
+width: 85%;
+height: 70%;
+font-size: large;
+border-radius: 20px;
+display: flex;
+flex-wrap: wrap;
+text-align: center;
+}
+
+
+.marquee_running span{
+  display: inline-block;
+  animation: marquee 30s linear infinite;
+  will-change: transform;
+  animation-play-state: running
+}
+
+.marquee_paused span{
+  display: inline-block;
+  animation: marquee 30s linear infinite;
+  will-change: transform;
+  animation-play-state: paused
+}
+
+
+
+.marquee_running span:hover {
+  animation-play-state: paused
+}
+
+
+
+@keyframes marquee {
+  0% { transform: translate(0, 0); }
+  100% { transform: translate(-100%, 0); }
+} 
+
+
+/* Respect user preferences about animations */
+
+ @media (prefers-reduced-motion: reduce) {
+  .marquee span {
+      animation-iteration-count: 1;
+      animation-duration: 0.01; 
+  }
+} 
+
+.haid{
+  color: rgb(175, 223, 175);
+  width: 10%;
+  margin: auto;
+  font-size: 35px;
+}
+
+
+.tail{
+  width: 10%;
+  margin: auto;
+}
+
+
+.news_button{
+  border-radius: 80px;
+  width: 42px;
+  height: 38px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  text-emphasis-style: bold;
+  margin: auto;
+  margin-top: 5px;
+  color: red;
+  background-color: unset;
+  outline: none;
+  border: solid 1px red;
+  text-align: center;
+}
+
+.tail button :hover :not(.active){
+  background-color: white;
+}

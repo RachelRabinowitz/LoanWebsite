@@ -1,0 +1,188 @@
+/* 
+  ul {
+    text-align: center;
+    font-size: 22px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color:rgba(158, 77, 77, 0.856);
+    position: fixed;
+    height: 100%;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 12px 12px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color: #555;
+    color: red;
+    border-left: 3px solid red;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+ */
+
+
+
+
+
+/* 
+ 
+.general_navbar {
+  background-color: black;
+  position: sticky;
+  display: flex;
+  top: 0px;
+  text-align: center;
+  font-size: 22px;
+  list-style-type: none;
+  margin: 20px;
+  padding: 0;
+  z-index: 10;
+}
+  
+ 
+  
+  
+  .general_nav_ul {
+    display: table;
+    float: right;
+  }
+  
+  
+  .general_nav_ul li {
+    display: inline-block;
+    transition: all 0.5s ease 0s;
+  }
+  
+  
+.general_nav_item {
+    text-decoration-line: unset;
+    display: block;
+    position: relative;
+    z-index: 2;
+    color: white;
+    padding: 12px 12px;
+    cursor: pointer;
+    transition: color .3s linear;
+    box-sizing: border-box;
+    visibility: inherit;
+}
+  
+  
+.general_nav_item:hover:not(.active) {
+    background-color: white;
+    color: black;
+}
+  
+  
+.general_nav_item.active {
+    color: rgb(175, 223, 175);
+    border-bottom: 2px solid rgb(175, 223, 175);
+}
+     */
+
+  
+.log_in_navbar {
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+  right: 100px;
+  padding: 12px 12px;
+  position: absolute;
+}
+
+
+
+
+   
+.general_navbar {
+  background-color: rgb(189, 113, 113);
+  position: sticky;
+  display: flex;
+  top: 10px;
+  text-align: center;
+  font-size: 22px;
+  list-style-type: none;
+  margin: 0px 10px 10px 10px;
+  padding-left: 5px;
+  z-index: 3;
+}
+
+
+#responsive_navbar {
+  color: white;
+  display: none;
+}
+
+
+#show_navbar {
+  display:none;
+}
+
+
+.general_nav_ul {
+  display: table;
+  float: right;
+  padding: 0;
+  margin: 0;
+}
+
+
+.general_nav_ul li {
+  display: inline-block;
+  transition: all 0.5s ease 0s;
+}
+
+
+.general_nav_item {
+  text-decoration-line: unset;
+  display: block;
+  position: relative;
+  z-index: 2;
+  color: white;
+  padding: 12px 12px;
+  cursor: pointer;
+  transition: color .3s linear;
+  box-sizing: border-box;
+  visibility: inherit;
+}
+
+
+.general_nav_item:hover:not(.active) {
+  background-color: white;
+  color: rgb(189, 113, 113);
+}
+
+
+.general_nav_item.active {
+  color: rgb(175, 223, 175);
+  background-color: black;
+}
+
+
+.logo{
+  width: 100px;
+}
+
+
+.list {
+  color: black;
+  display: none;
+  position: absolute;
+  margin-top: 10px;
+}
+
+
+
+#choose_gemach:hover .list {
+  display: block;
+}
+

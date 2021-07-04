@@ -1,0 +1,110 @@
+
+.container {
+  /* line-height: 500px; */
+  height: 500px;
+  margin: auto;
+  position: inherit;
+}
+
+
+.container .container_div {
+  display: inline-block;
+  position: relative;
+  line-height: 1.5;
+  background-color: rgb(175, 223, 175);
+  width: 75%;
+  height: 70%;
+  margin: auto;
+  overflow: auto;
+  border-radius: 10px;
+}
+
+
+.ul_nav {
+  text-align: center;
+  font-size: 22px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  height: 34px;
+}
+
+
+input[type=text], input[type=password], input[type=number], input[type=tel] {
+  width: 60%;
+  height: 21px;
+  font-size: 14px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: unset;
+  position: relative;
+  z-index: 1;
+}
+  
+
+input[type=text]:focus, input[type=password]:focus, input[type=number], input[type=tel]:focus {
+  outline: none;
+}
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button, input[type=tel] { 
+  -webkit-appearance: none; 
+  /* margin: 0;  */
+}
+
+input.active {
+  font-weight: bolder;
+}
+
+i {
+  background-color: unset;
+  cursor: pointer;
+  z-index: 5;
+}
+
+
+button {
+  outline: none;
+}
+
+
+.form_item i {
+  position: absolute;
+}
+
+
+
+h2{
+  font-family: MV Boli;
+  font-size: 40px;
+}
+
+.join_select {
+  display: block;
+  width: 250px;
+  margin-bottom: 40px;
+  height: 25px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 45px;
+  outline: none;
+  font-size: 16px;
+  text-align: center !important;
+  color: white;
+  background-color: black;
+  opacity: 0.7;
+}
+
+option {
+  color: black;
+  background-color: rgb(167, 187, 167);
+}
+
+.paypal_wrapper {
+  position: relative;
+  z-index: 1 !important;
+}

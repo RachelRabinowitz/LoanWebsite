@@ -1,0 +1,58 @@
+.footer {
+    margin-top: 10px;
+    padding: 20px;
+    background-color: rgb(36, 35, 35);
+    color: white;
+    position: sticky;
+    bottom: 0;
+    overflow: hidden;
+    height: 180px;
+    animation-direction: alternate;
+    transition: all 0.4s linear;
+    z-index: 2;
+}
+
+.footer_up {
+    bottom: 0;
+}
+
+.footer_down {
+    bottom: -110px;
+}
+
+.footer_status_btn {
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+    background-color: unset;
+    border: none;
+    float: right;
+    margin-right: 5%;
+}
+
+.unsubscribe {
+    color: white;
+    /* padding: 10px; */
+    font-size: 20px;
+    border: none;
+    background: none;
+    float: left;
+    margin-left: 10%;
+    cursor: pointer;
+}
+
+.copy_right {
+    position: absolute;
+    width: 100%;
+    /* color: #fff; */
+    line-height: 40px;
+    text-align: center;
+    bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+
+.fa fa-warning {
+    background-color: red !important;
+}

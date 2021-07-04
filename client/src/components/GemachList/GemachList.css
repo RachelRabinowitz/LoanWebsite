@@ -1,0 +1,78 @@
+.list_div {
+  line-height: 1.5;
+  background-color: rgb(175, 223, 175);
+  width: 800px;
+  height: 70%;
+  position: absolute;
+  overflow: auto;
+  margin-left: -12px;
+  cursor: auto;
+}
+
+.gemach_list {
+  overflow: auto;
+  /* margin-left: 50px; */
+  cursor: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.search_input {
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  padding: 5px;
+  width: auto;
+  outline: none;
+  float: left;
+  margin-top: 8px;
+  margin-left: 50px;
+  padding-left: 10px;
+  font-size: 17px;
+  border: none;
+}
+
+#list_head {
+  /* overflow: hidden; */
+  height: 140px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  display: inline-block;
+  background-color: rgb(175, 223, 175);
+}
+
+.search_button {
+  border-radius: 0;
+  width: fit-content;
+  height: fit-content;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: lighter;
+  text-emphasis-style: bold;
+  margin-top: 8px;
+  margin-right: 16px;
+  color: red;
+  background-color: unset;
+  outline: none;
+  border: none;
+  float: left;
+  padding: 5px 10px;
+}
+
+.search_button :active {
+  color: black;
+}
+
+.search_button :hover {
+  font-weight: bold;
+}
+
+.list_item {
+  text-decoration: none;
+  color: black;
+  margin: 8px !important;
+}
+
+.active_link {
+  color: red !important;
+}

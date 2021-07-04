@@ -1,0 +1,47 @@
+.about_item {
+  width: 50%;
+  height: 45px;
+  text-align: left;
+  position: relative;
+  margin: 30px;
+  margin-left: 80px;
+  padding: 10px;
+  padding-bottom: 0px;
+  border-bottom: 3px dotted rgb(189, 113, 113);
+  word-wrap: break-word;
+  overflow: auto;
+  animation-direction: alternate;
+  transition: all 0.4s linear;
+  font-family: Bookman Old Style;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.about_item::-webkit-scrollbar {
+  width: 0px;
+}
+
+.gemach_about {
+  width: 60%;
+  word-wrap: break-word;
+  margin-left: 20%;
+}
+
+.about_item.visiable {
+  height: 200px;
+}
+
+.about_item i {
+  float: right;
+}
+
+div::-webkit-scrollbar {
+  width: 5px;
+  background-color: rgb(37, 36, 36);
+  border-radius: 20px;
+}
+
+div::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background-color: white;
+}

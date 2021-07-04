@@ -1,0 +1,23 @@
+{
+  "name": "loan-website-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm start",
+    "api": "cd api && npm start",
+    "start": "concurrently \"npm run client\" \"npm run api\" ",
+    "client2": "cd client && npm install",
+    "api2": "cd api && npm install",
+    "postinstall": "concurrently \"npm run client2\" \"npm run api2\" "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.2.0",
+    "express": "^4.17.1",
+    "il-bank-account-validator": "^1.0.7",
+    "mongodb": "^3.6.9"
+  }
+}

@@ -1,0 +1,33 @@
+#join_community {
+  animation-direction: alternate;
+  transition: all 0.4s linear;
+  height: 1170px;
+}
+
+#join_doc .form_item {
+  padding-right: 15px;
+  padding-top: 0 !important;
+  margin-bottom: 5px !important;
+  width: 600px !important;
+}
+
+.join_req .form_item {
+  display: list-item !important;
+  list-style-type: disc !important;
+  list-style-position: inside !important;
+}
+
+h3 {
+  text-align: left !important;
+}
+
+#join_sub_doc .form_item {
+  padding-top: 0 !important;
+  margin-bottom: 5px !important;
+  width: 400px;
+}
+
+#join_paypal {
+  color: black;
+  font-size: 20px;
+}

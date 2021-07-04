@@ -1,0 +1,19 @@
+#top_manager{
+    color: white;
+    min-height: 100vh;
+    width: 70%;
+    margin-left: 15%;
+    padding: 30px;
+}
+.new_item {
+    margin: 20px;
+    text-align: start;
+}
+
+.add_new {
+    background-color: rgb(165, 164, 164);
+    padding: 10px;
+}
+.add_new .loader {
+    left: 15%
+}

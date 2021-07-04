@@ -1,0 +1,33 @@
+
+.must_item{
+    position: relative;
+    width: 250px;
+    height: 15px;
+  }
+  
+  .must_text{
+    position: absolute;
+    top: 0.6em;
+    line-height: 0;
+    font-size: 11.5px !important;
+  }
+
+  .must_text.ok {
+    font-weight: normal !important;
+  }
+  
+  .must_line{
+    position: absolute;
+    z-index: 1;
+    top: 0.5em;
+    width: 0;
+    height: 1.8px;
+    background-color: rgb(56, 51, 51);  
+    transition: 0.5s;
+    color: black;
+  }
+  
+  .cross_out{
+    width: 170px;
+  }
+  

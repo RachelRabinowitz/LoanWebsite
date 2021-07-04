@@ -1,0 +1,61 @@
+#manager {
+  padding: 100px;
+  min-height: 100vh !important;
+  text-align: start;
+}
+
+h4 {
+  color: white;
+  font-size: 30px;
+  font-family: Goudy;
+  text-decoration: underline;
+  text-align: center;
+}
+
+hr {
+  border: solid 1px rgb(189, 113, 113);
+}
+
+.req {
+  color: white;
+  margin-bottom: 15px;
+}
+
+.gemach_reqs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+
+.confirm_loan {
+  margin: 20px;
+  background-color: rgb(15, 15, 15);
+}
+
+.confirm_loan h5 {
+  color: white;
+  font-size: larger;
+  -webkit-text-stroke: 0.2px red;
+  font-family: MV Boli;
+}
+
+.bor {
+  padding-top: 10px;
+}
+
+#manager h2 {
+  color: white;
+  font-size: 25px;
+  padding-left: 35px;
+}
+
+
+h6 {
+  color: white;
+  font-size: 22px;
+  font-family: Goudy;
+}
+
+#manager .form_btn {
+  width: 130px;
+}

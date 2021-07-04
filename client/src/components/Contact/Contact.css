@@ -1,0 +1,33 @@
+
+#contact{
+    height: 750px !important;
+}
+
+.call_contact {
+    padding-left: 90px;
+    text-align: left;
+    font-size: x-large;
+}
+
+.form_doc.contact{
+    width: 40%;  
+}
+
+.divider{
+    width: 40px;
+}
+
+.divide {
+    width: 2px;
+    height: 35%;
+    background: black;
+    margin-left: 15px;
+}
+  
+
+.logo_in_contact
+{
+    width: 250px;
+    margin-left: -120px;
+    margin-top: -50px;
+}

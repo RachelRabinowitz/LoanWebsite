@@ -1,0 +1,33 @@
+
+.donate_div {
+    display: flex;
+    z-index: 0 !important;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.donate_div {
+    margin: 20px;
+    padding: 20px
+}
+
+
+.aboutLink {
+    cursor: pointer !important;
+    margin-right: 120px;
+    font-weight: bold;
+}
+
+
+.pay {
+    width: 100px;
+}
+
+.donate_div input {
+    margin-top: 50px;
+    width: 200px;
+}
+
+#donate .error_message{
+    margin: 0 0 0 0;
+}
